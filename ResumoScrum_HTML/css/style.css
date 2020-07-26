@@ -9,7 +9,8 @@
 body{
     font-family: 'Montserrat';
     background-color: #cccccc;
-    background-image: url(../img/oppacity_bck.png), linear-gradient(45deg,#56EFE0,#3B2AB5);
+    background-image: url(../img/oppacity_bck.png), linear-gradient(50deg,#56EFE0,#3B2AB5);
+    background-attachment: fixed;
 }
 
 nav{
