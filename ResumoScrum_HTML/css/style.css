@@ -279,3 +279,25 @@ a.active,a:hover{
 .color--text-overlay-about-3{
     background-color: #374490;
 }
+
+.color-overlay-1{
+    background-color: #359742;
+}
+
+.color-overlay-2{
+    background-color: #354591;
+}
+
+.color-overlay-3{
+    background-color: #48A6BC;
+}
+
+.color-overlay-4{
+    background-color: #000000;
+}
+
+.link-text{
+    color:white;
+    font-weight: bold;
+}
+	
