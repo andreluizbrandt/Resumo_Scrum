@@ -221,10 +221,61 @@ a.active,a:hover{
 
 .img-container {
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     margin-right: auto;
     margin-left: auto;
     max-width: 100%;
     height: auto;
+}
+
+.image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.img-container:hover .overlay{
+    opacity: 1;
+}
+
+.text-overlay {
+    background-color:#008CBA ;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    display: block;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+.color--text-overlay-about-1{
+    background-color: #4C6DAD;
+}
+
+.color--text-overlay-about-2{
+    background-color: #4BA7C1;
+}
+
+.color--text-overlay-about-3{
+    background-color: #374490;
 }
